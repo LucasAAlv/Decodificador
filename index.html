@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografador</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container_header">
+            <img src="./assets/Encrypt.svg" alt="logo encrypt" class="container_header__img">
+        </div>
+    </header>
+    <main>
+        <section class="container__content">
+            <div class="container__content__input">
+                <textarea name="textInput" id="textInput" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+                <!-- <p class="container__content__warning"><img src="" alt="">Não utilize acento</p> -->
+                <div class="container__content__input__buttons">
+                    <button type="button" class="container__content__input__button" id="butEncrypt">Criptografar</button>
+                    <button type="button" class="container__content__input__button" id="butDecrypt">Descriptografar</button>
+                </div>
+            </div>
+            <div class="container__content__output">
+                <img src="./assets/High quality products 1 1.svg" alt="woman looking">
+                <p class="container__content__output__placeholder"> <strong>Nenhuma mensagem encontrada</strong>
+                </p>
+                <p class="container__content__output__placeholder">
+                    Digite um texto que você deseja criptografar ou descriptografar.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+<script src="./app.js"></script>
+</html>

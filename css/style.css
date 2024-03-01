@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --color-background: #E8D8C4;
+    --color-output: #C7B7A3;
+    --color-text: #561C24;
+    --color-highlighted: #561C24;
+    --color-hover: #6D2932;
+    
+    --font-main: "inter", "sans-serif";
+    --font-regular: 400px;
+    --font-bold: 700px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--color-background);
+}
+.container_header{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 0 40px;
+}
+
+.container__content{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 5% 3% 3%;
+    height: 100vh;
+    gap: 80px;
+
+    font-family: var(--font-main);
+}
+
+.container__content__input{
+    padding: 3% 0 0 0;
+    width: 50%;
+}
+
+#textInput{
+    color: #561C24;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    resize: none;
+    font-size: 2rem;
+    width: 100%;
+    height: 90%;
+}
+
+.container__content__input__buttons{
+    display: flex;
+    justify-content: space-between;
+    height: 3.5rem;
+}
+
+.container__content__input__button{
+    font-family: var(--font-main);
+    border-radius: 1.2rem;
+    border: 1px solid var(--color-highlighted);
+
+    width: 48%;
+    height: 100%;
+}
+
+#butEncrypt{
+    background-color: var(--color-highlighted);
+    color: var(--color-output);
+}
+
+#butDecrypt{
+    background-color: var(--color-output);
+    color: var(--color-highlighted);
+}
+
+.container__content__output{
+    background-color: var(--color-output);
+    border-radius: 2rem;
+    box-shadow: 0 1rem 3rem -1.5rem gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    transform: translateY(-4%);
+    width: 27rem;
+    color: #561C24;
+}
+
+.container__content__output__placeholder{
+    padding: 0 2%;
+}
