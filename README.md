@@ -1,8 +1,8 @@
-# NLW eSports
+# Projeto Criptografador
 
 ![preview](.github/preview.png)
 
-> 🧗‍♂️ Projeto Encriptador 
+> 🧗‍♂️ Projeto Criptografador 
 
 Projeto construído a partir de um desafio lançado para os alunos do project ONE em uma parceria entre a Oracle e Alura.
 
