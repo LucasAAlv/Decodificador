@@ -35,7 +35,7 @@ function decryptText(){
     let textInput = textAreaInput.value.toLowerCase();
 
     if(textInput != ""){
-        for(i = encryptPattern.length-1; i > 0; i--){
+        for(i = encryptPattern.length-1; i > -1; i--){
             let vogal = encryptPattern[i][0];
             let encryptedVogal = encryptPattern[i][1];
             if(textInput.includes(vogal)){

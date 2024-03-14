@@ -31,7 +31,7 @@ body{
     display: flex;
     justify-content: flex-end;
     padding: 0 5% 3% 3%;
-    height: 100vh;
+    height: 82dvh;
     gap: 80px;
 
     font-family: var(--font-main);
@@ -95,4 +95,14 @@ body{
 
 .container__content__output__placeholder{
     padding: 0 2%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    background-color: #561C24;
+    font-family: var(--font-main);
+    color: #C7B7A3;
 }
